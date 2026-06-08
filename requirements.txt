@@ -1,0 +1,40 @@
+# ============================================================
+# Requirements — ABSA Shopee Mykonos
+# Python >= 3.8  (diuji di 3.8, 3.9, 3.10, 3.11)
+# ============================================================
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# NLP — IndoBERT / Transformers
+transformers>=4.36.0
+sentencepiece>=0.1.99          # Dibutuhkan tokenizer IndoBERT
+protobuf>=3.20.0,<5.0.0        # Dependensi sentencepiece
+
+# Dataset & ML utilities
+datasets>=2.16.0
+scikit-learn>=1.3.0
+numpy>=1.24.0,<2.0.0           # numpy 2.x masih ada breaking change
+
+# Data Handling
+pandas>=2.0.0
+
+# Web Interface
+streamlit>=1.32.0
+
+# Utilities
+tqdm>=4.65.0
+packaging>=23.0
+
+# ============================================================
+# Instalasi:
+#
+#   pip install -r requirements.txt
+#
+# Jika pakai GPU (CUDA 11.8):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+#   pip install -r requirements.txt
+#
+# Versi Python yang disarankan: 3.10
+# ============================================================
